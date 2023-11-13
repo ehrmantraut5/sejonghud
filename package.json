@@ -1,0 +1,18 @@
+{
+  "name": "sejonghud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sejun Kwon",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.2"
+  },
+  "dependencies": {
+    "moodle-client": "^0.5.1"
+  }
+}

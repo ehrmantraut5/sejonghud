@@ -1,0 +1,14 @@
+# wejfoweifj
+servers:
+ - server1 :
+    name : abc
+    date : 2023
+
+
+node1:
+ - node1-1 : NULL
+ - node1-2 : 12
+
+owiejf : NULL
+
+items: [5,6,4,3,2,1]
