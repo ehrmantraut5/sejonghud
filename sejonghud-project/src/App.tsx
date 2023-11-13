@@ -31,6 +31,12 @@ function App() {
     <td>Flor</td>
     <td>Ella</td>
     <td>Juan</td>
+
+    erg
+    erg
+    erg
+    erg
+    
   </tr>
   <tr>
     <td>Breed</td>
