@@ -1,4 +1,4 @@
 /node_modules
 /venvForDocs
-.DS_*
+.DS_Store
 /.vscode
