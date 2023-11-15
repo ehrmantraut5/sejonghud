@@ -1,2 +1,4 @@
 /node_modules
 /venvForDocs
+.DS_*
+/.vscode
