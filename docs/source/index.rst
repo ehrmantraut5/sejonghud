@@ -3,12 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
 Welcome to sejonghud's documentation!
 =====================================
+
+`Click here <http://www.sejong.ac.kr>`_ to view sejong webstie.
+
+sejong link `sejong_university`_
+
+.. _sejong_university: http://www.sejong.ac.kr/
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   test
 
 
 
@@ -18,3 +28,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
