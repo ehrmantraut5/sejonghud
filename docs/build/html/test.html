@@ -47,8 +47,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#section-to-cross-reference">Section to cross-reference</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#test">test</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#test2">test2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">test2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id4">test2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">test2</a></li>
 </ul>
 </li>
 </ul>
@@ -82,11 +82,12 @@
 <section id="section-to-cross-reference">
 <span id="my-reference-label"></span><h2>Section to cross-reference<a class="headerlink" href="#section-to-cross-reference" title="Link to this heading"></a></h2>
 <p>This is the text of the section.
-It refers to the section itself, see <a class="reference internal" href="#my-reference-label"><span class="std std-ref">Section to cross-reference</span></a></p>
+It refers to the section itself, see</p>
 </section>
 <section id="test">
 <h2>test<a class="headerlink" href="#test" title="Link to this heading"></a></h2>
 <p>Lorem ipsum <a class="footnote-reference brackets" href="#f1" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> dolor sit amet … <a class="footnote-reference brackets" href="#f2" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a></p>
+<p>Lorem ipsum <a class="reference internal" href="#ref" id="id3"><span>[Ref]</span></a> dolor sit amet.</p>
 </section>
 <section id="test2">
 <h2>test2<a class="headerlink" href="#test2" title="Link to this heading"></a></h2>
@@ -97,8 +98,8 @@ It has survived not only five centuries, but also the leap into electronic types
 essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </section>
-<section id="id3">
-<h2>test2<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<section id="id4">
+<h2>test2<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -106,9 +107,9 @@ It has survived not only five centuries, but also the leap into electronic types
 essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </section>
-<section id="id4">
-<h2>test2<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+<section id="id5">
+<h2>test2<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a class="reference internal" href="#my-reference-label"><span class="std std-ref">Section to cross-reference</span></a>
 Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 It has survived not only five centuries, but also the leap into electronic typesetting, remaining
@@ -125,6 +126,12 @@ and more recently with desktop publishing software like Aldus PageMaker includin
 <p>Text of the second footnote.</p>
 </aside>
 </aside>
+<div role="list" class="citation-list">
+<div class="citation" id="ref" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">Ref</a><span class="fn-bracket">]</span></span>
+<p>Book or article reference, URL or whatever.</p>
+</div>
+</div>
 </section>
 </section>
 
