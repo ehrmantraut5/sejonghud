@@ -9,4 +9,5 @@ sejonghud is cross-platform custom client desktop program which can display intu
 wepfwejiofj
 woeifjwoeijfwoiejfowije
 
-
+> \[!IMPORTANT]\
+> Please read our [Translation Guidelines][] before contributing to Translation and Localization of the Website
