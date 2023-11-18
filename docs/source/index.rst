@@ -21,8 +21,6 @@ sejong link `sejong_university`_
    pages/About-the-project.rst
    pages/Getting-started.rst
    pages/How-to-use.rst
-   pages/test.rst
-   pages/test2.rst
 
 
 Indices and tables
