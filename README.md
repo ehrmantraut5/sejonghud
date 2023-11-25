@@ -1,6 +1,6 @@
 # Welcome to sejonghud github page
 
-sejonghud is cross-platform offline LMS (Learning Management System) desktop client which can display intuitive UI/UX and manage University's Learning courses.
+sejonghud is cross-platform offline LMS (Learning Management System) desktop client which can display intuitive UI/UX and manage University's Learning courses. You can visit full document website [here](https://sejonghud.readthedocs.io/en/latest/index.html)
 
 ## Why we need sejonghud?
 
