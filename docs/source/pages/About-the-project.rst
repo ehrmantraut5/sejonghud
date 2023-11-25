@@ -76,7 +76,7 @@ Project hierarchy
     ┗ README.md
 
 - Project root folder contains docs and sejonghud-app folder.
-- docs folder is consist of readthedocs source files.
+- Docs folder is consist of readthedocs source files.
 - sejonghud-app have electron source in out folder and have react js files in src folder.
-- resources folder have assets which is used to contain images and svgs.
-- other json, yaml, lock files are configurations for development enviorment, All these files can be vary within each devloper's enviorment.
+- Resources folder have assets which is used to contain images and svgs.
+- Other json, yaml, lock files are configurations for development enviorment, All these files can be vary within each devloper's enviorment.

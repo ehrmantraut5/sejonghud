@@ -5,3 +5,52 @@ Getting started : Installation
 Installation
 ------------
 
+npm run build:mac
+
+There are two ways to install this app.
+
+1. Download dmg,exe or binary file and execute it.
+2. Clone this whole project and build it yourself. (Development enviorment installation required)j
+
+Direct download
+###############
+
+Download Link is here_ (Binary File is shared with dropbox)
+
+.. _here: https://www.dropbox.com/scl/fi/h8wmcvac0o0lymcv1f5dn/sejonghud-app-1.0.0.dmg?rlkey=vnp57apn6dw4ckr0fnzcyjhfx&dl=0
+
+Build yourself
+##############
+
+1. First, git clone this project into your new folder.
+
+.. code-block:: bash
+    :linenos:
+
+    git clone https://github.com/ehrmantraut5/sejonghud.git
+
+2. Change directory to cloned folder and install nodejs enviorment(nodejs and npm are prerequisite).
+
+.. code-block:: bash
+    :linenos:
+    
+    cd YourCloneFolderPath/sejonghud-app/
+
+    npm install
+
+3. After all the development depenencies are installed, build the project according to your os.
+
+.. code-block:: bash
+    :linenos:
+    
+    #macOS
+    npm run build:mac
+
+    #Windows
+    npm run build:win
+
+    #Linux
+    npm run build:linux
+
+- This command will create executable binary file in YourCloneFolderPath/sejonghud-app/dist.
+- You can finally execute sejonghud.
