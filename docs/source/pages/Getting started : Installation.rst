@@ -15,7 +15,7 @@ Direct download
 
 Download Link is here_ (Binary File is shared with dropbox)
 
-.. _here: https://www.dropbox.com/scl/fi/h8wmcvac0o0lymcv1f5dn/sejonghud-app-1.0.0.dmg?rlkey=vnp57apn6dw4ckr0fnzcyjhfx&dl=0
+.. _here: https://www.dropbox.com/scl/fo/4xgzolstvzoxxroo19prr/h?rlkey=e7k9dyfkpg1m9jrz8hakctqvw&dl=0
 
 Build yourself
 ##############
