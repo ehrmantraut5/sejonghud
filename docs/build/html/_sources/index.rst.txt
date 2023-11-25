@@ -17,9 +17,6 @@ Welcome to sejonghud's documentation!
    
    pages/How-to-use.rst
 
-
-
-
 Indices and tables
 ==================
 

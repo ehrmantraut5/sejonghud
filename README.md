@@ -14,7 +14,8 @@ sejonghud is cross-platform offline LMS (Learning Management System) desktop cli
 It is designed to make information about the subjects students take more accessible and easy to search.
 
 > \[!IMPORTANT]\
-> Please read our [Translation Guidelines] before contributing to Translation and Localization of the Website
+> This app is used locally, basically cannot take datas from university's LMS server automatically.
+> You can folk this project and add codes to do like that if your university's LMS API is opened
 
 
 ## Points to be improved

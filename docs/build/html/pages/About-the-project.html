@@ -48,6 +48,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#what-is-this-project">What is this project?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-this-project-works">How this project works?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#support-list">Support list</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#project-hierarchy">Project hierarchy</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="Getting%20started%20%3A%20Installation.html">Getting started : Installation</a></li>
@@ -113,18 +114,63 @@ Anyone who want to folk and develop their own app, just clone this project, inst
 <tbody>
 <tr class="row-even"><td><p>Apple</p></td>
 <td><p>macOS</p></td>
-<td><p>10.15 &gt;=</p></td>
+<td><p>&gt;= 10.15</p></td>
 </tr>
 <tr class="row-odd"><td><p>X86</p></td>
 <td><p>Windows</p></td>
-<td><p>10 &gt;=</p></td>
+<td><p>&gt;= 10</p></td>
 </tr>
 <tr class="row-even"><td><p>Linux</p></td>
 <td><p>Ubuntu</p></td>
-<td><p>18.04LTS &gt;=</p></td>
+<td><p>&gt;=18.04LTS</p></td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="project-hierarchy">
+<h2>Project hierarchy<a class="headerlink" href="#project-hierarchy" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span> (Projct Root)/
+<span class="linenos"> 2</span> ┣ docs/
+<span class="linenos"> 3</span> ┃ ┣ build/
+<span class="linenos"> 4</span> ┃ ┃ ┣ doctrees/
+<span class="linenos"> 5</span> ┃ ┃ ┗ html/
+<span class="linenos"> 6</span> ┃ ┣ source/
+<span class="linenos"> 7</span> ┃ ┃ ┣ _static/
+<span class="linenos"> 8</span> ┃ ┃ ┣ pages/
+<span class="linenos"> 9</span> ┃ ┃ ┣ conf.py
+<span class="linenos">10</span> ┃ ┃ ┗ index.rst
+<span class="linenos">11</span> ┃ ┣ ...
+<span class="linenos">12</span> ┣ sejonghud-app/
+<span class="linenos">13</span> ┃ ┣ build/
+<span class="linenos">14</span> ┃ ┣ out/
+<span class="linenos">15</span> ┃ ┃ ┣ main/
+<span class="linenos">16</span> ┃ ┃ ┣ preload/
+<span class="linenos">17</span> ┃ ┃ ┗ renderer/
+<span class="linenos">18</span> ┃ ┣ resources/
+<span class="linenos">19</span> ┃ ┣ src/
+<span class="linenos">20</span> ┃ ┃ ┣ main/
+<span class="linenos">21</span> ┃ ┃ ┣ preload/
+<span class="linenos">22</span> ┃ ┃ ┗ renderer/
+<span class="linenos">23</span> ┃ ┣ dev-app-update.yml
+<span class="linenos">24</span> ┃ ┣ electron-builder.yml
+<span class="linenos">25</span> ┃ ┣ electron.vite.config.js
+<span class="linenos">26</span> ┃ ┣ package-lock.json
+<span class="linenos">27</span> ┃ ┗ package.json
+<span class="linenos">28</span> ┣ .gitignore
+<span class="linenos">29</span> ┣ .readthedocs.yaml
+<span class="linenos">30</span> ┣ LICENSE
+<span class="linenos">31</span> ┣ Pipfile
+<span class="linenos">32</span> ┣ Pipfile.lock
+<span class="linenos">33</span> ┗ README.md
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Project root folder contains docs and sejonghud-app folder.</p></li>
+<li><p>docs folder is consist of readthedocs source files.</p></li>
+<li><p>sejonghud-app have electron source in out folder and have react js files in src folder.</p></li>
+<li><p>resources folder have assets which is used to contain images and svgs.</p></li>
+<li><p>other json, yaml, lock files are configurations for development enviorment, All these files can be vary within each devloper’s enviorment.</p></li>
+</ul>
 </section>
 </section>
 

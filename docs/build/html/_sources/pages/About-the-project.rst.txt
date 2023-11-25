@@ -28,9 +28,55 @@ Support list
 +------------+------------+-----------+
 |  Platform  | Support OS |Min Version|
 +============+============+===========+
-|   Apple    | macOS      | 10.15 >=  |
+|   Apple    | macOS      | >= 10.15  |
 +------------+------------+-----------+
-|    X86     | Windows    |  10 >=    |
+|    X86     | Windows    |  >= 10    |
 +------------+------------+-----------+
-|   Linux    | Ubuntu     |18.04LTS >=|
+|   Linux    | Ubuntu     |>=18.04LTS |
 +------------+------------+-----------+
+
+Project hierarchy
+-----------------
+
+.. code-block::
+   :linenos:
+
+    (Projct Root)/
+    ┣ docs/
+    ┃ ┣ build/
+    ┃ ┃ ┣ doctrees/
+    ┃ ┃ ┗ html/
+    ┃ ┣ source/
+    ┃ ┃ ┣ _static/
+    ┃ ┃ ┣ pages/
+    ┃ ┃ ┣ conf.py
+    ┃ ┃ ┗ index.rst
+    ┃ ┣ ...
+    ┣ sejonghud-app/
+    ┃ ┣ build/
+    ┃ ┣ out/
+    ┃ ┃ ┣ main/
+    ┃ ┃ ┣ preload/
+    ┃ ┃ ┗ renderer/
+    ┃ ┣ resources/
+    ┃ ┣ src/
+    ┃ ┃ ┣ main/
+    ┃ ┃ ┣ preload/
+    ┃ ┃ ┗ renderer/
+    ┃ ┣ dev-app-update.yml
+    ┃ ┣ electron-builder.yml
+    ┃ ┣ electron.vite.config.js
+    ┃ ┣ package-lock.json
+    ┃ ┗ package.json
+    ┣ .gitignore
+    ┣ .readthedocs.yaml
+    ┣ LICENSE
+    ┣ Pipfile
+    ┣ Pipfile.lock
+    ┗ README.md
+
+- Project root folder contains docs and sejonghud-app folder.
+- docs folder is consist of readthedocs source files.
+- sejonghud-app have electron source in out folder and have react js files in src folder.
+- resources folder have assets which is used to contain images and svgs.
+- other json, yaml, lock files are configurations for development enviorment, All these files can be vary within each devloper's enviorment.
