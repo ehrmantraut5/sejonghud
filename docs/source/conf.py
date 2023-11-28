@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'sejonghud'
-copyright = '2023, SejunKwon'
-author = 'SejunKwon'
+copyright = '2023, Sejun Kwon'
+author = 'Sejun Kwon'
 release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
@@ -25,4 +25,4 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ["_static"]
+html_static_path = ['_static']

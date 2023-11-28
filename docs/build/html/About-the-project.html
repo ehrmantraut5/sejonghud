@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>About the project &#8212; sejonghud 0.0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
+    <script src="_static/documentation_options.js?v=d45e8c67"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="about-the-project">
+<h1>About the project<a class="headerlink" href="#about-the-project" title="Link to this heading">¶</a></h1>
+<section id="what-is-this-project">
+<h2>What is this project?<a class="headerlink" href="#what-is-this-project" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>This project stands to improve student’s LMS user experience</p></li>
+<li><p>Offers intuitive interface</p></li>
+<li><p>With this, you can concentrate to you university course well</p></li>
+<li><p>You can manage your course with your taste, you can input your own data</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can also connect to your university’s LMS system and get data through API server.
+But if the system does not support external log in, you should use offline-mode.</p>
+</div>
+</section>
+<section id="how-this-project-works">
+<h2>How this project works?<a class="headerlink" href="#how-this-project-works" title="Link to this heading">¶</a></h2>
+<p>This project runs above electron which can be executed in Windows, macOS, Linux.
+All the desktop platforms can be supported and users don’t have to install complicated development enviorment.
+Basically, this application is deployed by full packaged file.
+Anyone who want to folk and develop their own app, just clone this project, install nodejs development enviorment, and just modify electron source file.</p>
+</section>
+<section id="support-list">
+<h2>Support list<a class="headerlink" href="#support-list" title="Link to this heading">¶</a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Platform</p></th>
+<th class="head"><p>Support OS</p></th>
+<th class="head"><p>Min Version</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Apple</p></td>
+<td><p>macOS</p></td>
+<td><p>&gt;= 10.15</p></td>
+</tr>
+<tr class="row-odd"><td><p>X86</p></td>
+<td><p>Windows</p></td>
+<td><p>&gt;= 10</p></td>
+</tr>
+<tr class="row-even"><td><p>Linux</p></td>
+<td><p>Ubuntu</p></td>
+<td><p>&gt;=18.04LTS</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="project-hierarchy">
+<h2>Project hierarchy<a class="headerlink" href="#project-hierarchy" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span> (Projct Root)/
+<span class="linenos"> 2</span> ┣ docs/
+<span class="linenos"> 3</span> ┃ ┣ build/
+<span class="linenos"> 4</span> ┃ ┃ ┣ doctrees/
+<span class="linenos"> 5</span> ┃ ┃ ┗ html/
+<span class="linenos"> 6</span> ┃ ┣ source/
+<span class="linenos"> 7</span> ┃ ┃ ┣ _static/
+<span class="linenos"> 8</span> ┃ ┃ ┣ pages/
+<span class="linenos"> 9</span> ┃ ┃ ┣ conf.py
+<span class="linenos">10</span> ┃ ┃ ┗ index.rst
+<span class="linenos">11</span> ┃ ┣ ...
+<span class="linenos">12</span> ┣ sejonghud-app/
+<span class="linenos">13</span> ┃ ┣ build/
+<span class="linenos">14</span> ┃ ┣ out/
+<span class="linenos">15</span> ┃ ┃ ┣ main/
+<span class="linenos">16</span> ┃ ┃ ┣ preload/
+<span class="linenos">17</span> ┃ ┃ ┗ renderer/
+<span class="linenos">18</span> ┃ ┣ resources/
+<span class="linenos">19</span> ┃ ┣ src/
+<span class="linenos">20</span> ┃ ┃ ┣ main/
+<span class="linenos">21</span> ┃ ┃ ┣ preload/
+<span class="linenos">22</span> ┃ ┃ ┗ renderer/
+<span class="linenos">23</span> ┃ ┣ dev-app-update.yml
+<span class="linenos">24</span> ┃ ┣ electron-builder.yml
+<span class="linenos">25</span> ┃ ┣ electron.vite.config.js
+<span class="linenos">26</span> ┃ ┣ package-lock.json
+<span class="linenos">27</span> ┃ ┗ package.json
+<span class="linenos">28</span> ┣ .gitignore
+<span class="linenos">29</span> ┣ .readthedocs.yaml
+<span class="linenos">30</span> ┣ LICENSE
+<span class="linenos">31</span> ┣ Pipfile
+<span class="linenos">32</span> ┣ Pipfile.lock
+<span class="linenos">33</span> ┗ README.md
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Project root folder contains docs and sejonghud-app folder.</p></li>
+<li><p>Docs folder is consist of readthedocs source files.</p></li>
+<li><p>sejonghud-app have electron source in out folder and have react js files in src folder.</p></li>
+<li><p>Resources folder have assets which is used to contain images and svgs.</p></li>
+<li><p>Other json, yaml, lock files are configurations for development enviorment, All these files can be vary within each devloper’s enviorment.</p></li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">sejonghud</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Sejun Kwon.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/About-the-project.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
