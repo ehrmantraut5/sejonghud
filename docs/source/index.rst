@@ -13,7 +13,7 @@ Welcome to sejonghud's documentation!
 
    pages/About-the-project.rst
 
-   pages/Getting started : Installation.rst
+   pages/Getting-started.rst
    
    pages/How-to-use.rst
 
