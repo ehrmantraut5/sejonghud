@@ -1,5 +1,11 @@
-import FullCalendar from '@fullcalendar/react'
-import dayGridPlugin from '@fullcalendar/daygrid'
+import FullCalendar from '@fullcalendar/react';
+import dayGridPlugin from '@fullcalendar/daygrid';
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
 
 const events = [
   //{ title: 'Meeting', start: new Date() },
@@ -8,8 +14,10 @@ const events = [
 
 export default function Fullcalendar() {
   return (
-    <div>
-      <h1>Demo App</h1>
+
+    <Card sx={{ mt: 2, mr: 2, ml: 2, mb: "2px"}}>
+        <CardContent>
+        <div>
       <FullCalendar
         plugins={[dayGridPlugin]}
         initialView='dayGridMonth'
@@ -18,6 +26,8 @@ export default function Fullcalendar() {
         eventContent={renderEventContent}
       />
     </div>
+        </CardContent>
+    </Card>
   )
 }
 
