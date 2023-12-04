@@ -1,0 +1,21 @@
+#User Setting
+- Setting:
+    firstName: Sejun
+    lastName: Kwon
+    department: Data Science
+    Subjects:
+      - name: Algorithm and Lab,
+        prof: Junaid Rashid,
+        lectureRoom: 센B101
+
+      - name: Computer Architecture,
+        prof: Dildar Hussain,
+        lectureRoom: 이201
+
+      - name: Advanced C Programming and Lab,
+        prof: 김장겸,
+        lectureRoom: 센B101
+
+      - name: Basci Design,
+        prof: 하태현,
+        lectureRoom: 센B101
