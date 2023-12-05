@@ -4,17 +4,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import { useState } from 'react';
 
-export default function ActionAreaCard({title, description}) {
+export default function SubjectCard({title, description, onClick}) {
   return (
     <Card sx={{ minWidth:345, maxWidth: 345, mt: 2, mr: 2, ml: 2, mb: "2px"}}>
-      <CardActionArea>
-        {/* <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
-        /> */}
+      <CardActionArea onClick={onClick}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {title}

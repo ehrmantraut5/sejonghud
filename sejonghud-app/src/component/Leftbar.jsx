@@ -14,37 +14,22 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { Link } from "react-router-dom";
-import { Subjects, Descriptions } from '../data/SubjectData';
-import ActionAreaCard from './Card';
+import { Subjects } from '../data/SubjectData';
+import SubjectCard from './SubjectCard';
 import { IndeterminateCheckBox } from '@mui/icons-material';
-// const yaml = require('js-yaml');
-// const fs = require('fs');
 
-const Item = ({ title, to, icon, selected, setSelected }) => {
+export default function Leftbar({subjects, onSubjectClick}) {
+  const handleSubjectClick = (subject) => {
+    onSubjectClick(subject);
+  };
   return (
-    <ListItemButton
-      active={selected === title}
-      style={{
-        color: colors.grey[100],
-      }}
-      onClick={() => setSelected(title)}
-      icon={icon}
-    >
-      <Typography>{title}</Typography>
-      <Link to={to} />
-    </ListItemButton>
-  );
-};
-
-export default function ClippedDrawer() {
-  return (
-    <Box sx={{backgroundColor: "#F8F8F8" }}>
+    <Box sx={{backgroundColor: "#F8F8F8"}}>
       <CssBaseline />
         <Box sx={{ overflow: 'auto',}}>
           <List sx={{padding: 0}}>
             {Subjects.map((subject, index) => (
               <ListItem key={index} disablePadding>
-                <ActionAreaCard title={subject.name} description={subject.description}/>
+                <SubjectCard key = {index} title={subject.name} description={subject.description} onClick={() => handleSubjectClick(subject)}/>
               </ListItem>
             ))}
           </List>

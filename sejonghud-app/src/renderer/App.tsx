@@ -4,25 +4,28 @@ import './App.css';
 import Leftbar from '../component/Leftbar';
 import Topbar from '../component/Topbar';
 import Fullcalendar from '../component/Fullcalendar';
+import MainCard from '../component/MainCard';
+import {Subjects} from '../data/SubjectData';
+import React, { useState } from 'react';
+
 
 
 export default function App() {
+  const [selectedSubject, setSelectedSubject] = useState(null);
+
+  const handleSubjectClick = (subject) => {
+    setSelectedSubject(subject);
+  };
+
   return (
-    // <Router>
-    //   <Routes>
-    //     <Route path="/" element={<Leftbar />}/>
-    //     <Route path="/" element={<FullCalendar />}/>
-    //   </Routes>
-    // </Router>
     <div className="app">
-      {/* sidebar */}
-      <Leftbar />
+      <Leftbar subjects={Subjects} onSubjectClick={handleSubjectClick}/>
       <main className="content">
         <Topbar />
-
         <Router>
           <Routes>
-            <Route path="/" element={<Fullcalendar />}/>
+            {/* <Route path="/" element={<Fullcalendar />}/> */}
+            <Route path="/" element={<MainCard selectedSubject={selectedSubject}/>}/>
           </Routes>
         </Router>
       </main>

@@ -6,6 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import Box from '@mui/material/Box';
 
 const events = [
   //{ title: 'Meeting', start: new Date() },
@@ -14,20 +15,19 @@ const events = [
 
 export default function Fullcalendar() {
   return (
-
-    <Card sx={{ mt: 2, mr: 2, ml: 2, mb: "2px"}}>
-        <CardContent>
+      <Card sx={{ mt: 2, mr: 2, ml: 2, mb: "2px"}}>
+      <CardContent>
         <div>
-      <FullCalendar
-        plugins={[dayGridPlugin]}
-        initialView='dayGridMonth'
-        weekends={true}
-        events={events}
-        eventContent={renderEventContent}
-      />
-    </div>
-        </CardContent>
-    </Card>
+          <FullCalendar
+            plugins={[dayGridPlugin]}
+            initialView='dayGridMonth'
+            weekends={true}
+            events={events}
+            eventContent={renderEventContent}
+          />
+        </div>
+      </CardContent>
+      </Card>
   )
 }
 
