@@ -8,10 +8,10 @@ import Subjects from '../data/SubjectData';
 
 export default function MainCard({selectedSubject}) {
   return (
-    <Card sx={{mt: 2, mr: 2, ml: 2, mb: "2px"}}>
+    <Card sx={{width: "100%",mt: 2, mr: 2, ml: 2, mb: 2}}>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {selectedSubject ? selectedSubject.name : "Select a subject"}
+          {selectedSubject.prop}
         </Typography>
       </CardContent>
     </Card>

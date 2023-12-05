@@ -19,9 +19,9 @@ export default function App() {
 
   return (
     <div className="app">
-      <Leftbar subjects={Subjects} onSubjectClick={handleSubjectClick}/>
+      <Topbar />
       <main className="content">
-        <Topbar />
+      <Leftbar subjects={Subjects} onSubjectClick={handleSubjectClick}/>
         <Router>
           <Routes>
             {/* <Route path="/" element={<Fullcalendar />}/> */}

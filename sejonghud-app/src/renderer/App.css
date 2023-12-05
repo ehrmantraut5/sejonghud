@@ -3,8 +3,8 @@
 html,
 body,
 #root,
-.app,
-.content {
+.app
+{
   height: 100%;
   width: 100%;
   font-family: "Source Sans Pro", sans-serif;
@@ -15,9 +15,17 @@ body {
   height: 100%;
 }
 
-.app {
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #F8F8F8;
   display: flex;
-  position: relative;
+}
+
+.app {
+  /* display: flex;
+  position: relative; */
 }
 
 ::-webkit-scrollbar {

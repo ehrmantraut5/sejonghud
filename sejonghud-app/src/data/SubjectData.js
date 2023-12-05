@@ -8,7 +8,7 @@ export const Subjects = [
   {
     name: "Advanced C Programming and Lab",
     description: "김장겸 센B101",
-
+    prop: "This is Second"
   },
   {
     name: "Basic Design",

@@ -23,7 +23,7 @@ export default function Leftbar({subjects, onSubjectClick}) {
     onSubjectClick(subject);
   };
   return (
-    <Box sx={{backgroundColor: "#F8F8F8"}}>
+    <Box sx={{backgroundColor: "#F8F8F8", width:"370px"}}>
       <CssBaseline />
         <Box sx={{ overflow: 'auto',}}>
           <List sx={{padding: 0}}>

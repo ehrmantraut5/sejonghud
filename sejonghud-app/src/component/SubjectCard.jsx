@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 export default function SubjectCard({title, description, onClick}) {
   return (
-    <Card sx={{ minWidth:345, maxWidth: 345, mt: 2, mr: 2, ml: 2, mb: "2px"}}>
+    <Card sx={{ minWidth:345, maxWidth: 345, mt: 2, ml: 2, mb: "2px"}}>
       <CardActionArea onClick={onClick}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
