@@ -15,19 +15,15 @@ const events = [
 
 export default function Fullcalendar() {
   return (
-      <Card sx={{ mt: 2, mr: 2, ml: 2, mb: "2px"}}>
-      <CardContent>
-        <div>
-          <FullCalendar
-            plugins={[dayGridPlugin]}
-            initialView='dayGridMonth'
-            weekends={true}
-            events={events}
-            eventContent={renderEventContent}
-          />
-        </div>
-      </CardContent>
-      </Card>
+    <div>
+      <FullCalendar
+        plugins={[dayGridPlugin]}
+        initialView='dayGridMonth'
+        weekends={true}
+        events={events}
+        eventContent={renderEventContent}
+      />
+    </div>
   )
 }
 
