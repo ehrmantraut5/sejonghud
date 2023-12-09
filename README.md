@@ -41,7 +41,8 @@ Sejonghud provide many convenient services when we use website.
 2. Enable quick access to information anytime, anywhere.
 3. Increase learning ability and study efficiency of many students.
 
-### 집현캠퍼스 개선 후 변화 
+### 집현캠퍼스 개선 후 변화
+
 #### 자신이 듣는 과목과 해야 하는 과제를 한눈에 볼 수 있습니다.
 그동안은 로그인을 하고 '나의 강의실'을 들어간 후에 내가 직접 과목을 눌러야 과제 및 공지를 볼 수 있었지만 이제는 로그인만 하면 모든 정보를 간결하게 볼 수 있습니다. 첫 화면에 모든 과목이 뜨면 불필요한 클릭을 줄일 수 있게 됩니다.
 
