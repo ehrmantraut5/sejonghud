@@ -1,5 +1,9 @@
 # How to contribute
 
+## Contributing guideline
+
+>Pull requests are accepted after code review of repository manager. Please contact in [mailing list]() first. After approvement, your development will be applied.
+
 ## Clone and remote our repository
 
 ```bash
