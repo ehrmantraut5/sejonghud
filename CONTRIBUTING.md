@@ -43,3 +43,17 @@ npm install # This command will install all packages
 npm start
 
 ```
+
+## App packaging
+
+- When you package your app, the app is packed along to your local paltform's architecture.
+- So you need diversity hardware to use in multi platform.
+
+```bash
+# 1. This command will pack automatically.
+npm run package
+
+# 2. Packed app is located in this path
+
+YOUR_FOLDER_NAME/sejonghud-app/release/app/build
+```
